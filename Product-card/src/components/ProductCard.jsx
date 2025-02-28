@@ -11,8 +11,8 @@ function ProductCard() {
         <div className="description">
           <h2>Sol Wrap</h2>
           <p className='price'>$5.50 <span>$8.50</span></p>
-          <p className='para'>This delicious Sol Wrap is packed with nothing but favor! <br/>
-            Being that it is vegan you can never go wrong with what your <br/>
+          <p className='para'>This delicious Sol Wrap is packed with nothing but favor!
+            Being that it is vegan you can never go wrong with what your
             taste buds desire.</p>
             <button className='btn'>Buy Now</button>
 
