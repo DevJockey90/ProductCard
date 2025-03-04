@@ -3,17 +3,15 @@ import './ProductCard.css'
 
 import Image from '../assets/veganWrap.jpg'
 
-function ProductCard() {
+function ProductCard(props) {
   return (
     <div className='card_box'>
         
-        <img src={Image} alt="" />
+        <img src={props.image} alt="" />
         <div className="description">
-          <h2>Sol Wrap</h2>
-          <p className='price'>$5.50 <span>$8.50</span></p>
-          <p className='para'>This delicious Sol Wrap is packed with nothing but favor!
-            Being that it is vegan you can never go wrong with what your
-            taste buds desire.</p>
+          <h2></h2>
+          <p className='price'><span></span></p>
+          <p className='para'></p>
             <button className='btn'>Buy Now</button>
 
         </div>
